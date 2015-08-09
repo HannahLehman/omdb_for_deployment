@@ -8,17 +8,20 @@
 //                    type === movie                   
 // 4. Return filtered movies with matching titles. 
 
-var searchForm = document.getElementById("search-form");
-var searchText = document.getElementById("s");
 
-var onSubmitSearchForm = function() {
-  var omdbApiRequest = new XMLHttpRequest.open('GET', 'http://www.omdbapi.com/?', true);
-    omdbApiRequest.send("s=" + searchText.value + "&type=movie");
-};
+// var searchForm = document.getElementById("search-form");
+// var searchText = document.getElementById("s");
 
-searchForm.addEventListener("submit", onSubmitSearchForm); 
+// var onSubmitSearchForm = function() {
+//   var omdbApiRequest = new XMLHttpRequest.open('GET', 'http://www.omdbapi.com/?', true);
+//     omdbApiRequest.send("s=" + searchText.value + "&type=movie");
+// };
 
-var loadOmdbResponse = // Javascript to parse JSON response goes here.
+// searchForm.addEventListener("submit", onSubmitSearchForm); 
+
+// var loadOmdbResponse = // Javascript to parse JSON response goes here.
+
+
 
 
 // Store to favorites:
